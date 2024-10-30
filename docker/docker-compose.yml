@@ -1,0 +1,8 @@
+services:
+  udp-multicast:
+    build:
+      context: ../src
+      dockerfile: ../docker/Dockerfile
+    ports:
+      - 5353:5353
+    network_mode: "host"
