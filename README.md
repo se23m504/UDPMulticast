@@ -18,7 +18,7 @@ Initially, we considered implementing a Zeroconf/mDNS-based discovery solution, 
 
 ## Usage
 
-1. Run the script.
+Run the script:
 
 ```bash
 python broadcast.py
